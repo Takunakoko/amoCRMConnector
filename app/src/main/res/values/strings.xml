@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">amoCRMConnector</string>
+    <string name="rubles">руб</string>
+    <string name="name">Название</string>
+    <string name="budget">Бюджет</string>
+    <string name="date_creation">Дата создания</string>
+    <string name="state">Статус</string>
+</resources>
