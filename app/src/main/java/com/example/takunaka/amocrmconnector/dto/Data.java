@@ -1,13 +1,10 @@
 package com.example.takunaka.amocrmconnector.dto;
 
-import com.example.takunaka.amocrmconnector.dto.dataDto.Lead;
+import com.example.takunaka.amocrmconnector.dto.LeadsDto.Lead;
 import com.example.takunaka.amocrmconnector.dto.statesDto.LeadsStatus;
 
 import java.util.List;
 
-/**
- * Created by takunaka on 03.12.17.
- */
 
 public class Data {
     private List<Lead> leads;

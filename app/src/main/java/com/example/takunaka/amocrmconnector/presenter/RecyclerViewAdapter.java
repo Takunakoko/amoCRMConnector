@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.takunaka.amocrmconnector.R;
-import com.example.takunaka.amocrmconnector.dto.dataDto.Lead;
+import com.example.takunaka.amocrmconnector.dto.LeadsDto.Lead;
 import com.example.takunaka.amocrmconnector.dto.statesDto.LeadsStatus;
 import com.example.takunaka.amocrmconnector.utils.DateConverter;
 import com.example.takunaka.amocrmconnector.view.MainActivity;
@@ -22,7 +22,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private MainActivity activity;
     private MainPresenter presenter;
 
-    public RecyclerViewAdapter(List<Lead> leads, MainActivity activity, MainPresenter mainPresenter) {
+    RecyclerViewAdapter(List<Lead> leads, MainActivity activity, MainPresenter mainPresenter) {
         this.listLeads = leads;
         this.activity = activity;
         this.presenter = mainPresenter;

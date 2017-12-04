@@ -1,5 +1,5 @@
 
-package com.example.takunaka.amocrmconnector.dto.dataDto;
+package com.example.takunaka.amocrmconnector.dto.LeadsDto;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

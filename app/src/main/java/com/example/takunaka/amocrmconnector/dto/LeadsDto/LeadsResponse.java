@@ -1,11 +1,11 @@
 
-package com.example.takunaka.amocrmconnector.dto.dataDto;
+package com.example.takunaka.amocrmconnector.dto.LeadsDto;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Response {
+public class LeadsResponse {
 
     @SerializedName("leads")
     @Expose

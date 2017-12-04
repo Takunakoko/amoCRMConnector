@@ -7,9 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.takunaka.amocrmconnector.R;
 import com.example.takunaka.amocrmconnector.presenter.MainPresenter;
 
+
 public class MainActivity extends AppCompatActivity{
-    
-    MainPresenter mMainPresenter;
+
+    private MainPresenter mMainPresenter;
     public SharedPreferences sPref;
 
     @Override

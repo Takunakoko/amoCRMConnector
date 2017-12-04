@@ -6,12 +6,12 @@ import com.google.gson.annotations.SerializedName;
 
 public class States {
 
-    @SerializedName("response")
+    @SerializedName("statesResponse")
     @Expose
-    private Response response;
+    private StatesResponse statesResponse;
 
-    public Response getResponse() {
-        return response;
+    public StatesResponse getStatesResponse() {
+        return statesResponse;
     }
 
 
